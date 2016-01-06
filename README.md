@@ -1,4 +1,4 @@
-### hacks-in-a-nut_shell
+#### hacks-in-a-nut_shell
 
 - `batt-stat` is a `sensors` based script that pretty-prints current power state
 
