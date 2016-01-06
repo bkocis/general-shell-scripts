@@ -2,4 +2,4 @@
 
 var=`pwd`
 date=`date`
-echo "$date"" : ""$var" >> /home/mnost/.term_log
+echo "$date"" : ""$var" >> /home/sweethome/.term_log

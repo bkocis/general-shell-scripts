@@ -6,7 +6,7 @@
 
 - `ascii collection` contains asciis for any purpose 
 
-
+- `save_pwd_at_cdl` at each execution of cd saves the pwd to a log file with time stamp 
 
 
 
