@@ -9,8 +9,7 @@ var1=`pwd`
 # case 2 - when a file is openned that is away from the pwd - then a full path is 
 #	forwarded to vi 
 
-var2=$1
-
+var2="$1"
 
 #====execution of the command with correct path 
 
@@ -18,10 +17,10 @@ var2=$1
 if [[ $var2 == *"/"* ]]
 then
 #yes - execute case 2
-vi `echo "$var2"`
+vi "`echo "$var2"`"   # the " " is very much needed for the case of empty spaces in folder names!!!
 else
 #no - execute case 1
-vi `echo "$var1""/""$1"`
+vi "`echo "$var1""/""$1"`"  # the "`.....`" forwards all, regardless of empty space on the pathname
 fi
 
 # 7.1.2016
