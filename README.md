@@ -8,7 +8,7 @@
 
 - `save_pwd_at_cdl` at each execution of cd saves the pwd to a log file with time stamp 
 
-
+- `term_pwd_log` functions for logging 
 
 
 
