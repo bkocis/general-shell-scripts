@@ -4,4 +4,4 @@ Stores the result of `pwd` call in a log file. It's execution is tied to the fun
 
 #### lllogme
 
-same as `echo "a custome message" >> to_a_custom.file` with added date and decorations. For instant log messages. 
+Logs an instant message to a file; same as `echo "a custome message" >> to_a_custom.file` with added date and decorations.
