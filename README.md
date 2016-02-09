@@ -1,6 +1,6 @@
 #### hacks-in-a-nut_shell
 
-##### Scripts fot command line access to power settings (mainly interesting on laptop)
+##### Scripts for command line access to power settings (mainly interesting on laptop)
 
 - `batt-stat` is a `sensors` based script that pretty-prints current power state
 
