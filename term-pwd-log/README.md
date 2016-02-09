@@ -7,4 +7,12 @@ Stores the result of `pwd` call in a log file. It's execution is tied to the fun
 
 ##### lllogme
 
-Logs an instant message to a file; same as `echo "a custome message" >> to_a_custom.file` with added date and decorations.
+Log-s an instant message to a file; same as `echo "a custome message" >> to_a_custom.file` with added date and decorations.
+
+##### open.sh
+
+
+##### vi_open.sh
+
+When using `ps` for the system process tree, the file opened with `vi` is not shown with full path. This little scripts is meant to be used with an alias, (`alias vi=vi_open.sh`). When a file is opened with vi thorough the command line, the whole path of the file will be displayed in the system processes tree (`ps`)
+
