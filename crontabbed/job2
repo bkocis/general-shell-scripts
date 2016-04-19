@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#ps auxf > /home/mnost/.term_log3
+ps -eo user,pid,%cpu,%mem,bsdstart,args f > /home/mnost/.term_log3
+date=`date`
+echo "# " >> /home/mnost/.term_log3
+echo "# $date" >> /home/mnost/.term_log3
+# or eventually without the f flag 
+#ps -eo user,pid,%cpu,%mem,bsdstart,args >> /home/mnost/.term_log3
+
