@@ -20,4 +20,6 @@ bash script:
 1.1 resize if needed
 2. add caption 
 3. edit frame properties, by selecting size width to 100% relative 
-4. resize the image again 
+4. resize the image again
+
+as a result the caption text will be as long and the page, and not only under the figure 
