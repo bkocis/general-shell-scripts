@@ -10,7 +10,7 @@ man nmcli
 
 `nmcli con up uuid essdosdfpsojfpojpfoajposjfpaojsfpoajsfoj` 
 
-whete essdosdfpsojfpojpfoajposjfpaojsfpoajsfoj will be the uuid 
+*where `essdosdfpsojfpojpfoajposjfpaojsfpoajsfoj` will be the uuid 
 
 - remember to turn on the wifi device 
 
