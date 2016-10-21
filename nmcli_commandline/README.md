@@ -24,4 +24,8 @@ or off
 making a hotspot out of laptop-linux when LAN connected:
 
 
+>>
+
+C242 bal	9bf0db02-df12-48b9-8753-e6d671a3b738
+home Fritzbox 	eb4ec751-8208-44fa-976c-437d7974c96e
 
