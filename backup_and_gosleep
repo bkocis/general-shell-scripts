@@ -1,9 +1,0 @@
-#! /bin/bash
-
-#cp -r /bin/mnost_scripts/ /media/mnost/Seagate\ Backup\ Plus\ Drive/mnost_backup/20-02-2016
-cp -r /bin/ /media/mnost/Seagate\ Backup\ Plus\ Drive/mnost_backup/4-04-2016
-cp -r /home/mnost/ /media/mnost/Seagate\ Backup\ Plus\ Drive/mnost_backup/4-4-2016
-var=`date`
-echo "$var"
-
-sudo pm-suspend
