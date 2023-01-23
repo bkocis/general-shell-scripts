@@ -1,0 +1,8 @@
+espeak -p 30 -s 160 -k20 -v en-us+klatt3 "let's rock'n'roll?!"
+
+#espeak -p 30 -s 160 -k20 -l10 -v en-us+klatt3 -f someting_to_say
+
+Espeak tends to run lines together too fast. For example, the 1, 2, 3 list shown here is spoken quickly as one line. Punctuation can help, but much of the time, espeak text requires trial and error in order to emulate natural pauses and breakpoints.
+
+
+Linux will talk like a fast robot, and you might need to pay careful attention to understand what is being said. However, there are many options available that adjust the voice. Enter: man, "Espeak" for details.
