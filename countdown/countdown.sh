@@ -1,4 +1,11 @@
 #!/bin/bash
+
+<<C
+Simple countdown display in the terminal
+
+C
+
+
 countdown_1() {
 i=10; 
 while [ $i -gt 0 ]; 

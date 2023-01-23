@@ -16,29 +16,9 @@
 
 - `ascii collection` contains asciis-art for any purpose 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 
                  
       ▀▄   ▄▀     
      ▄█▀███▀█▄    
     █▀███████▀█   
     █ █▀▀▀▀▀█ █   
-       ▀▀ ▀▀ 
-
+       ▀▀ ▀▀

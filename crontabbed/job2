@@ -1,10 +1,19 @@
 #!/bin/bash
+<<C
+`job2.sh` - stores the system processes (like top's output) into a file every n-minutes.
+It uses `ps` (for making a snapshot of current processes) with flag arguments for formatting of the output.
 
-#ps auxf > /home/mnost/.term_log3
-ps -eo user,pid,%cpu,%mem,bsdstart,args f > /home/mnost/.term_log3
+C
+
+ps -eo user,pid,%cpu,%mem,bsdstart,args f > ~/.term_log3
 date=`date`
-echo "# " >> /home/mnost/.term_log3
-echo "# $date" >> /home/mnost/.term_log3
-# or eventually without the f flag 
-#ps -eo user,pid,%cpu,%mem,bsdstart,args >> /home/mnost/.term_log3
+echo "# " >> ~/.term_log3
+echo "# $date" >> ~/.term_log3
+
+# or without the f flag
+# ps -eo user,pid,%cpu,%mem,bsdstart,args >> /home/mnost/.term_log3
+
+# alternativelly
+# ps auxf > ~/.term_log3
+
 
